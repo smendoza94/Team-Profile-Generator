@@ -1,0 +1,21 @@
+Your application should use Jest (https://www.npmjs.com/package/inquirer) 
+for running the unit tests and Inquirer (https://www.npmjs.com/package/jest) 
+for collecting input from the user.
+
+The application will be invoked by using the following command:
+node index.js
+
+(1) A sample HTML file generated using the application must be submitted.
+
+(2) A walkthrough video that demonstrates the functionality of the Team 
+Profile Generator and passing tests must be submitted, and a link to the 
+video should be included in your README file.
+
+The walkthrough video must show:
+  
+  All four tests passing from the command line.
+  
+  Demonstrate how a user would enter responses 
+  to all of the prompts in the application.
+
+  Generated HTML file that matches the user input.
