@@ -5,13 +5,13 @@ test('creates a manager object', () => {
   expect(manager.name).toBe('Bob');
   expect(manager.id).toEqual(expect.any(Number));
   expect(manager.email).toEqual(expect.any(String));
-  expect(manager.officeNumber).toEqual(expect.any(Number)); // unique to Manager
+  expect(manager.officeNumber).toEqual(expect.any(String)); // unique to Manager
 });
 
 // getOfficeNumber() is unique to the Manager
 test('gets the manager office number', () => {
   const manager = new Manager('Bob');
-  expect(manager.getOfficeNumber()).toEqual(expect.any(Number));
+  expect(manager.getOfficeNumber()).toEqual(expect.any(String));
 });
 
 test('gets the manager role', () => {
