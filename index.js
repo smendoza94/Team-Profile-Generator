@@ -3,7 +3,9 @@ const generatePage = require('./src/page-template.js')
 const Manager = require('./lib/Manager.js');
 const Engineer = require('./lib/Engineer.js');
 const Intern = require('./lib/Intern.js');
+let employeesData = [];
 let idNum = 0;
+
 
 function getInputRole(){
   console.log('Initializing Inquirer...')
